@@ -1,0 +1,10 @@
+Checkpoint,Question to Confirm,Failure Risk,Prevention Action,Metric to Monitor
+Insurance Status,Is coverage active for the date of service?,Eligibility denial,Verify payer eligibility before appointment,Eligibility-related denial rate
+Member ID,Does the member ID match payer records?,Claim rejection or payer mismatch,Validate ID through payer portal,Registration error rate
+Patient Demographics,Do name date of birth and address match payer records?,Claim rejection or delay,Confirm demographics during intake,Clean claim rate
+Plan Type,Is the correct payer and plan selected?,Incorrect payer routing,Confirm plan category and billing requirements,Payer correction volume
+Coordination of Benefits,Has primary and secondary coverage been reviewed?,COB denial or delayed payment,Verify COB before service,COB-related denial rate
+Authorization Requirement,Does the payer require prior authorization?,Authorization denial,Review payer authorization rules,Authorization-related denial rate
+Referral Requirement,Is a referral needed before service?,Referral denial,Confirm referral rules before scheduling,Referral denial volume
+Financial Responsibility,Was patient responsibility communicated clearly?,Patient billing confusion,Provide cost estimate before service,Patient collection rate
+Account Clearance,Was the account cleared before the appointment?,Preventable billing delay,Create financial clearance checkpoint,Financial clearance completion rate
